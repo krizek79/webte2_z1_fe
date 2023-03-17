@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.4/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<header>
+    <nav id="navbar" class="flex py-6 px-12 bg-white shadow-sm items-end top-0 gap-x-6 justify-between"></nav>
+</header>
+<main>
+    <div class="m-12" id="personDiv">
+
+    </div>
+    <div id="editPersonModal"></div>
+    <div id="modalShadow"></div>
+</main>
+
+<footer class="bottom-0 flex w-full justify-center px-12 py-4 border-t border-gray-200 dark:bg-gray-800">
+    © 2023 Copyright: Matej Križan (AIS ID: 111 327)
+</footer>
+<script src="navbar.js"></script>
+<script src="auth.js"></script>
+<script src="person.js"></script>
+<script src="editPersonModal.js"></script>
+<script src="deletePerson.js"></script>
+<script src="personValidator.js"></script>
+</body>
+</html>
